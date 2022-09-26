@@ -55,13 +55,13 @@ CFLAGS_OBJCC_Debug := \
 	-fobjc-arc
 
 INCS_Debug := \
-	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.14.2/include/node \
-	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.14.2/src \
-	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.14.2/deps/openssl/config \
-	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.14.2/deps/openssl/openssl/include \
-	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.14.2/deps/uv/include \
-	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.14.2/deps/zlib \
-	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.14.2/deps/v8/include \
+	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.13.1/include/node \
+	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.13.1/src \
+	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.13.1/deps/openssl/config \
+	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.13.1/deps/openssl/openssl/include \
+	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.13.1/deps/uv/include \
+	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.13.1/deps/zlib \
+	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.13.1/deps/v8/include \
 	-I/Users/samsonkwakunkrumah/Desktop/keystroke/node_modules/node-addon-api
 
 DEFS_Release := \
@@ -114,13 +114,13 @@ CFLAGS_OBJCC_Release := \
 	-fobjc-arc
 
 INCS_Release := \
-	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.14.2/include/node \
-	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.14.2/src \
-	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.14.2/deps/openssl/config \
-	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.14.2/deps/openssl/openssl/include \
-	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.14.2/deps/uv/include \
-	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.14.2/deps/zlib \
-	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.14.2/deps/v8/include \
+	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.13.1/include/node \
+	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.13.1/src \
+	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.13.1/deps/openssl/config \
+	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.13.1/deps/openssl/openssl/include \
+	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.13.1/deps/uv/include \
+	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.13.1/deps/zlib \
+	-I/Users/samsonkwakunkrumah/Library/Caches/node-gyp/16.13.1/deps/v8/include \
 	-I/Users/samsonkwakunkrumah/Desktop/keystroke/node_modules/node-addon-api
 
 OBJS := \

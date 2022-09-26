@@ -1,18 +1,6 @@
 {
     "targets": [
         {
-            "target_name": "hello",
-            "cflags!": ["-fno-exceptions"],
-            "cflags_cc!": ["-fno-exceptions"],
-            # myModule is the name of your native addon
-            "target_name": "hello",
-            "sources": ["one.cc"],
-            "include_dirs": [
-                "<!@(node -p \"require('node-addon-api').include\")"
-            ],
-            'defines': ['NAPI_DISABLE_CPP_EXCEPTIONS'],
-        },
-        {
             "target_name": "listen",
             "cflags!": ["-fno-exceptions"],
             "cflags_cc!": ["-fno-exceptions"],
