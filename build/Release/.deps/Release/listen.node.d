@@ -1,0 +1,1 @@
+cmd_Release/listen.node := c++ -bundle -framework CoreFoundation -framework IOKit -framework AppKit -undefined dynamic_lookup -Wl,-search_paths_first -mmacosx-version-min=10.15 -arch arm64 -L./Release -stdlib=libc++  -o Release/listen.node Release/obj.target/listen/two.o 
